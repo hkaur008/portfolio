@@ -1,15 +1,24 @@
 
-
+ a:link:hover { 
+  text-decoration: none; 
+} 
+*{
+  margin:0;padding:0;
+}
 html,body{ 
-	width:100%;
-	height:100%;
+
   background:#111;
-  overflow-x: hidden;
+
   margin:0;padding:0;
 }
 
 html{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: black;
+  
+}
+.content{
+  position:absolute;right:10vw;
+  top:10%;
 }
 
 body{
@@ -19,9 +28,17 @@ body{
 canvas{
   display:block;}
   
-
-
-
+.head-part{
+  position: relative;
+}
+.navbar{
+  height:8vh;
+  color:white;
+}
+  .navbar-toggler
+  {position:absolute;
+    right:5vh;
+  }
 
 
 
@@ -29,10 +46,19 @@ canvas{
 
 #particles-js{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #b61924;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+.pics{
+  padding:10px ;
+}
+.footer{ 
+  padding:5vh;
+  padding-bottom: 0;
+  border-top:1px solid grey;
+  font-size: 4vh;
 }
